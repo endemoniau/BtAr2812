@@ -56,3 +56,8 @@ Utilizando [Skydoves Colorpicker](https://github.com/skydoves/ColorPickerView "S
 - Pin TX de Arduino -> RX del modulo bluetooth
 - Pin RX de Arduino -> TX del modulo bluetooth
 - Pin 9 de Arduino -> DIN de los leds
+
+
+### Se debe incluir [FastLED](https://github.com/FastLED/FastLED "FastLED") en el codigo Arduino.
+
+Agradecimiento a @fcastro79
