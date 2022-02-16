@@ -21,12 +21,23 @@ Permite seleccionar el dispositivo al que se va a controlar e informa el status 
 
 ![BTAR2812-2](https://user-images.githubusercontent.com/60631810/153987514-56b35e62-2ecb-4b94-ab59-62753fa21b91.jpg)
 
-Permite cargar un archivo de bitmap, cuando se presiona sobre el bitmap envia la informacion linea por linea
+Permite cargar un archivo de bitmap y enviarlo a los leds cuando se presiona sobre la imagen cargada asi como hacer algunos ajustes:
+- Desplazamiento de la informacion de color.
+- Intervalo indica la pausa entre repeticiones cuando el control de repetecion es mayor a uno.
+- Velocidad que permanece encendida cada linea que se reproduce del bitmap.
+- Ajustar el brillo de los leds.
 
 
 ### Modo Barra
 
-![BTAR2812-3](https://user-images.githubusercontent.com/60631810/153987538-b97c81ba-d3b1-4205-9ed9-8b89313b6349.jpg)
+![BTAR2812-3](https://user-images.githubusercontent.com/60631810/153987538-b97c81ba-d3b1-4205-9ed9-8b89313b6349.jpg) 
 
-Permite seleccionar un color y hacer ajustes 
+Utilizando [Skydoves Colorpicker](https://github.com/skydoves/ColorPickerView "Skydoves Colorpicker") permite seleccionar un color y hacer ajustes:
+- Fundido para el nivel de degradado del brillo.
+- Intervalo de leds encendidos y apagados.
+- Amplitud de la cantidad de leds encendidos.
+- Todos los controles cuentan con un checkbox para invertir el ajuste
+- Los distintos ajustes combinados dan un rango de amplio de tipos de trazos de luz.
+
+
 
