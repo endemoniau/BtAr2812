@@ -7,7 +7,8 @@ BTAR2812 es una aplicacion android para controlar leds WS2812 utilizando comunic
 BTAR2812 está pensando en la necesidad particular de la creaciòn de herramientas para utilizar en la tecnica fotografica de lightpainting (Si deseas saber sobre la tecnica de lightpainting estas en el lugar indicado!, puedes pasar por mi web [www.elendemo.com.ar](http://www.elendemo.com.ar "www.elendemo.com.ar")).
 
 ![IMG_5572](https://user-images.githubusercontent.com/60631810/154155399-808fe86d-cb8c-4b8a-93a6-b790a6a763a9.jpg)
-Toma de larga exposicion directa de camara utilizando la herramienta controlada por la aplicacion para la iluminacion y efectos de luz.
+Toma de larga exposicion directa de camara utilizando la herramienta controlada por la aplicacion para la iluminacion y efectos de luz. (Credito: @
+orgasmovisual.photogroup / @el_endemoniau).
 
 ### Status
 
