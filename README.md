@@ -9,6 +9,10 @@ BTAR2812 está pensando en la necesidad particular de la creaciòn de herramient
 ![IMG_5572](https://user-images.githubusercontent.com/60631810/154155399-808fe86d-cb8c-4b8a-93a6-b790a6a763a9.jpg)
 Toma de larga exposicion directa de camara utilizando la herramienta controlada por la aplicacion para la iluminacion y efectos de luz.
 
+### Status
+
+El estado actual del proyecto esta configurado para controlar 32 leds WS2812B. Mientras tanto y a futuro el desarrollo permitira especificar la cantidad de leds que se deseen controlar ya que se encuentran en distintas presentaciones (barra, anillo, matriz) y cada cual con su cantidad de leds.
+
 
 ### Seccion Inicio
 
