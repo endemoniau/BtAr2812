@@ -45,5 +45,14 @@ Utilizando [Skydoves Colorpicker](https://github.com/skydoves/ColorPickerView "S
 - Todos los controles cuentan con un checkbox para invertir el ajuste.
 - Los distintos ajustes combinados brindan un amplio rango de trazos de luz.
 
+### Esquema
+(A modo ilustrativo el modulo wifi del esquema cumple la funcion del modulo bluetooth)
+![BTAR2812](https://user-images.githubusercontent.com/60631810/154372486-57432e4a-b26b-4526-85d9-6ba39b7c1859.png)
 
+[Enlace a esquema](https://www.tinkercad.com/things/8bRt67OoYUw "Enlace a esquema")
 
+### Conexion
+
+- Pin TX de Arduino -> RX del modulo bluetooth
+- Pin RX de Arduino -> TX del modulo bluetooth
+- Pin 9 de Arduino -> DIN de los leds
