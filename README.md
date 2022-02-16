@@ -11,7 +11,7 @@ Toma de larga exposicion directa de camara utilizando la herramienta controlada 
 
 ### Status
 
-El estado actual del proyecto esta configurado para controlar 32 leds WS2812B. Mientras tanto y a futuro el desarrollo permitira especificar la cantidad de leds que se deseen controlar ya que se encuentran en distintas presentaciones (barra, anillo, matriz) y cada cual con su cantidad de leds.
+El estado actual del proyecto esta configurado para controlar 32 leds WS2812B. Mientras tanto continuo con el desarrollo que permitira especificar la cantidad de leds que se deseen controlar ya que se encuentran en distintas presentaciones (barra, anillo, matriz) y cada cual con su cantidad de leds.
 Tambien cuenta con recursos de mensajes localizados en Español e Ingles.
 
 
