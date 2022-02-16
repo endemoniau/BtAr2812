@@ -60,4 +60,6 @@ Utilizando [Skydoves Colorpicker](https://github.com/skydoves/ColorPickerView "S
 
 ### Se debe incluir [FastLED](https://github.com/FastLED/FastLED "FastLED") en el codigo Arduino.
 
-Agradecimiento a @fcastro79
+
+
+### Agradecimientos a [fcastro79](https://github.com/fcastro79 "fcastro79")!
