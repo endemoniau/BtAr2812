@@ -41,8 +41,8 @@ Utilizando [Skydoves Colorpicker](https://github.com/skydoves/ColorPickerView "S
 - Fundido para el nivel de degradado del brillo.
 - Intervalo de leds encendidos y apagados.
 - Amplitud de la cantidad de leds encendidos.
-- Todos los controles cuentan con un checkbox para invertir el ajuste
-- Los distintos ajustes combinados dan un rango de amplio de tipos de trazos de luz.
+- Todos los controles cuentan con un checkbox para invertir el ajuste.
+- Los distintos ajustes combinados brindan un amplio rango de trazos de luz.
 
 
 
