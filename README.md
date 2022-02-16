@@ -14,15 +14,16 @@ Toma de larga exposicion directa de camara utilizando la herramienta controlada 
 El estado actual del proyecto esta configurado para controlar 32 leds WS2812B. Mientras tanto continuo con el desarrollo que permitira especificar la cantidad de leds que se deseen controlar ya que se encuentran en distintas presentaciones (barra, anillo, matriz) y cada cual con su cantidad de leds.
 Tambien cuenta con recursos de mensajes localizados en Español e Ingles.
 
+### Setup ![ic_setup](https://user-images.githubusercontent.com/60631810/154331668-be282bf3-1fdc-48d7-9bdc-3e1ce0d46ca4.jpg) 
 
-### Seccion Inicio
 
 ![BTAR2812-1](https://user-images.githubusercontent.com/60631810/153987472-956a668c-5c75-4512-81e0-0e916d2760c3.jpg)
 
 Permite seleccionar el dispositivo al que se va a controlar e informa el status de conexion.
 
 
-### Modo Bitmap
+### Modo Bitmap ![ic_matriz](https://user-images.githubusercontent.com/60631810/154332376-bc6fecbe-9455-4b56-8f35-34f9b2b38f81.jpg)
+
 
 ![BTAR2812-2](https://user-images.githubusercontent.com/60631810/153987514-56b35e62-2ecb-4b94-ab59-62753fa21b91.jpg)
 
@@ -33,7 +34,7 @@ Permite cargar un archivo de bitmap y enviarlo a los leds cuando se presiona sob
 - Ajustar el brillo de los leds.
 
 
-### Modo Barra
+### Modo Barra ![ic_barra](https://user-images.githubusercontent.com/60631810/154332448-d4f69af7-aeb5-4af5-8715-4886d68fd944.jpg)
 
 ![BTAR2812-3](https://user-images.githubusercontent.com/60631810/153987538-b97c81ba-d3b1-4205-9ed9-8b89313b6349.jpg) 
 
