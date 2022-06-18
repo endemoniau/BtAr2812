@@ -18,7 +18,7 @@ El estado actual del proyecto permite controlar hasta 255 leds WS2812B, testeado
 
 ![Screenshot_20220618-004033](https://user-images.githubusercontent.com/60631810/174422172-3976c65e-40ba-4bf3-bc86-70eb945ac870.png)
 
-Permite seleccionar el dispositivo al que se va a controlar e informa el status de conexión.
+Permite seleccionar el dispositivo al que se va a controlar e informa el status de conexión y especificar la cantidad de leds a utilizar.
 
 
 ### Modo Bitmap ![ic_matriz](https://user-images.githubusercontent.com/60631810/154332376-bc6fecbe-9455-4b56-8f35-34f9b2b38f81.jpg)
