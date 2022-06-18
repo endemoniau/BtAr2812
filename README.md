@@ -11,32 +11,32 @@ Toma de larga exposicion directa de camara utilizando la herramienta controlada 
 
 ### Status
 
-El estado actual del proyecto esta configurado para controlar 32 leds WS2812B. Mientras tanto continuo con el desarrollo que permitirá especificar la cantidad de leds que se deseen controlar ya que se encuentran en distintas presentaciones (barra, anillo, matriz) y cada cual con su cantidad de leds.
-También cuenta con recursos de mensajes localizados en Español e Inglés.
+El estado actual del proyecto permite controlar hasta 255 leds WS2812B, testeado en matriz de 8x8, tira de 32 leds, anillo de 16 leds y encapsulado de 7 leds. También cuenta con recursos de mensajes localizados en Español e Inglés.
 
 ### Setup ![ic_setup](https://user-images.githubusercontent.com/60631810/154331668-be282bf3-1fdc-48d7-9bdc-3e1ce0d46ca4.jpg) 
 
 
-![BTAR2812-1](https://user-images.githubusercontent.com/60631810/153987472-956a668c-5c75-4512-81e0-0e916d2760c3.jpg)
+![Screenshot_20220618-004033](https://user-images.githubusercontent.com/60631810/174422172-3976c65e-40ba-4bf3-bc86-70eb945ac870.png)
 
 Permite seleccionar el dispositivo al que se va a controlar e informa el status de conexión.
 
 
 ### Modo Bitmap ![ic_matriz](https://user-images.githubusercontent.com/60631810/154332376-bc6fecbe-9455-4b56-8f35-34f9b2b38f81.jpg)
 
-
-![BTAR2812-2](https://user-images.githubusercontent.com/60631810/153987514-56b35e62-2ecb-4b94-ab59-62753fa21b91.jpg)
+![Screenshot_20220618-004211](https://user-images.githubusercontent.com/60631810/174422186-b1aa6be0-0fe1-4c34-8506-cda6080756c5.png)
 
 Permite cargar un archivo de bitmap y enviarlo a los leds cuando se presiona sobre la imagen cargada asi como hacer algunos ajustes:
-- Desplazamiento de la informacion de color.
-- Intervalo indica la pausa entre repeticiones cuando el control de repetición es mayor a uno.
+- Desplazamiento de la informacion de color (experimental).
+- Repeticiones.
 - Velocidad que permanece encendida cada línea que se reproduce del bitmap.
 - Ajustar el brillo de los leds.
+- Modo Matriz ideal para matrices de leds y representar un bitmap de manera no lineal. El modificador estatico mantiene fijo el encendido de los leds.
+
 
 
 ### Modo Barra ![ic_barra](https://user-images.githubusercontent.com/60631810/154332448-d4f69af7-aeb5-4af5-8715-4886d68fd944.jpg)
 
-![BTAR2812-3](https://user-images.githubusercontent.com/60631810/153987538-b97c81ba-d3b1-4205-9ed9-8b89313b6349.jpg) 
+![Screenshot_20220618-004222](https://user-images.githubusercontent.com/60631810/174422196-f8f0fdec-2c48-4802-909c-075ef87d86e5.png)
 
 Utilizando [Skydoves Colorpicker](https://github.com/skydoves/ColorPickerView "Skydoves Colorpicker") permite seleccionar un color y hacer ajustes:
 - Fundido para el nivel de degradado del brillo.
@@ -59,7 +59,6 @@ Utilizando [Skydoves Colorpicker](https://github.com/skydoves/ColorPickerView "S
 
 ### Consideraciones
 - Se debe incluir [FastLED](https://github.com/FastLED/FastLED "FastLED") en el código Arduino.
-- El módulo bluetooth debe estar configurado a 19200 baudios.
 
 
 ### Agradecimientos a [fcastro79](https://github.com/fcastro79 "fcastro79")!
