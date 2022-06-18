@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.elendemo.BTAr2812"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:4:5-68
+11-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:4:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:5:5-74
+12-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:5:22-71
+13    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+13-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:5:5-74
+13-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:5:22-71
+14
+15    <application
+15-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:9:5-24:19
+16        android:allowBackup="true"
+16-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.5.0] /home/tukio/.gradle/caches/transforms-3/f5d35f68d2cc3eb6c0b5cd9fd1247d1f/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:icon="@mipmap/ic_launcher"
+20-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:11:9-43
+21        android:label="BTAr2812"
+21-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:12:9-33
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:13:9-54
+23        android:supportsRtl="true"
+23-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:14:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.AppCompat.NoActionBar" >
+25-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:15:9-59
+26        <activity
+26-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:17:9-23:20
+27            android:name="com.elendemo.btar2812.MainActivity"
+27-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:17:19-68
+28            android:screenOrientation="portrait" >
+28-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:18:13-49
+29            <intent-filter>
+29-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:19:13-22:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:20:17-69
+30-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:20:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:21:17-77
+32-->/home/tukio/Escritorio/Workspace/BTAR2812-RepoPub/BtAr2812/Android/app/src/main/AndroidManifest.xml:21:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <provider
+36-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/tukio/.gradle/caches/transforms-3/f9003ff18533d723cbb8bffcd7865d67/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+37            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+37-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/tukio/.gradle/caches/transforms-3/f9003ff18533d723cbb8bffcd7865d67/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+38            android:authorities="com.elendemo.BTAr2812.lifecycle-process"
+38-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/tukio/.gradle/caches/transforms-3/f9003ff18533d723cbb8bffcd7865d67/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+39            android:exported="false"
+39-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/tukio/.gradle/caches/transforms-3/f9003ff18533d723cbb8bffcd7865d67/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+40            android:multiprocess="true" />
+40-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/tukio/.gradle/caches/transforms-3/f9003ff18533d723cbb8bffcd7865d67/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+41    </application>
+42
+43</manifest>
